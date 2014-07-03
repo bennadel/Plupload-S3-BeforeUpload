@@ -50,6 +50,8 @@ app.service(
 		}
 
 
+		// I save the image data to the server - this returns information that can be
+		// used to upload the image binary to Amazon S3.
 		function saveImage( name ) {
 
 			var request = $http({
